@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Nov  8 21:05:51 2019
+Created on Fri Nov  7 21:05:51 2019
 
 @author: edwin.diaz
 """
@@ -333,5 +333,6 @@ def update_balance(exchange, leverage, start_date, end_date):
 
     }
                     
-if __name__ == "__main__":
-    app.run_server(debug=True)
+
+if __name__ == '__main__':
+    app.run_server(debug=True, host= '0.0.0.0')
